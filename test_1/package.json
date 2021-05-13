@@ -1,0 +1,18 @@
+{
+    "name": "test_1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build-sqls": "node build-sqls.js",
+        "execute-single-insert": "node execute-single-insert.js"
+    },
+    "keywords": [],
+    "author": "Christian Augusto Martins dos Santos Barros (christianbetta@gmail.com)",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "mysql": "^2.18.1",
+        "qs": "^6.10.1"
+    }
+}

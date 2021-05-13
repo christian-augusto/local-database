@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+    local-database:
+        container_name: "local-database"
+        image: mysql:5.7.30
+        environment:
+            - MYSQL_ROOT_PASSWORD=x0r7ICkAAU2j0oHancK2fJ6lp4hoLWN1SH6M1q3VWLI7Ixyo24
+        ports:
+            - "3306:3306"
+        expose:
+            - 3306
+        volumes:
+            - ./mysql:/var/lib/mysql
